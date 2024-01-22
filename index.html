@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="filterInput" placeholder="Filter by title">
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">ID</th>
+        <th onclick="sortTable(1)">Title</th>
+        <th onclick="sortTable(2)">Price</th>
+        <th onclick="sortTable(3)">Category</th>
+        <th onclick="sortTable(4)">Created At</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script src="homework.js"></script>
+</body>
+</html>
